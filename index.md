@@ -43,7 +43,7 @@ keywords: thovo, web developer
         <div class="row story">
           <p>Hi, I'm a Front End Developer from Ho Chi Minh City, Vietnam. I am currently a Master student of Double Degrees Program between University of Jean Monet France and University of Alicante Spain.</p>
           <p>I am currently studying about Machine Learning and Data Mining to apply this knowledges to Web Semantics, building a smart and adaptive website.</p>
-          <a class="download button radius" href=""><i class="fa fa-download"></i> Download Resume</a>
+          <a class="download button radius" href="/resources/ThoVO-CurriculumVitae.pdf"><i class="fa fa-download"></i> Download Resume</a>
         </div>
       </div>
     </div>

@@ -1,56 +1,155 @@
 ---
-layout: default
-title: Welcome!
+layout: default_theme
+title: Welcome to my portfolio!
 description: This is my site. Welcome.
-keywords: github pages, Jekyll, foundation 5
+keywords: thovo, web developer
 ---
+<!-- <section id="information" class="content">
+  <div class="row">
+    <h1 class="mvl">Tho VO</h1>
+    <h2 class="mvl">Develop web with passion!</h2>
+  </div>
+</section> -->
 
-<h1 class="mvl">Whoa! Jekyll, Foundation 5, HTML5 boilerplate and github pages!</h1>
+<!-- About Me -->
+<section id="about" class="content">
+  <div class="row">
+    <div class="row header">
+      <h3 class="section-header">About
+        <span>Me</span>
+      </h3>
+      <h4 class="section-subheader">Let me tell you my story!</h4>
+    </div>
+    <div class="row">
+      <div class="large-4 medium-12  small-12 columns">
+        <h5 class="my-quote">
+          Bring the happiness to my client with interest!
+        </h5>
+        <div class="row social">
+          <a href="https://www.facebook.com/tvotuong" targert="_blank"><i class="fa fa-facebook-square"></i></a>
+          <a href="https://twitter.com/tho_vo" targert="_blank"><i class="fa fa-twitter-square"></i></a>
+          <a href="https://plus.google.com/+ThọVõTường" targert="_blank"><i class="fa fa-google-plus-square"></i></a>
+          <a href="https://www.linkedin.com/in/thovotuong" targert="_blank"><i class="fa fa-linkedin-square"></i></a>
+        </div>
+      </div>
+      <div class="large-4 medium-12  small-12 columns">
+        <img src="/images/avatar.jpg" alt="Vo Tuong Tho" class="avatar" width="300" height="374" />
+      </div>
+      <div class="large-4 medium-12  small-12 columns">
+        <div class="row title">
+          <h5 class="name">Tho VO</h5>
+          <h6 class="job">Front End Developer</h6>
+        </div>
+        <div class="row story">
+          <p>Hi, I'm a Front End Developer from Ho Chi Minh City, Vietnam. I am currently a Master student of Double Degrees Program between University of Jean Monet France and University of Alicante Spain.</p>
+          <p>I am currently studying about Machine Learning and Data Mining to apply this knowledges to Web Semantics, building a smart and adaptive website.</p>
+          <a class="download button radius" href=""><i class="fa fa-download"></i> Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- Work Experiences -->
+<section id="works" class="content">
+  <div class="row">
+    <div class="row header">
+      <h3 class="section-header">Work
+        <span>Experiences</span>
+      </h3>
+      <h4 class="section-subheader">What I have done!</h4>
+    </div>
+    <div id="cd-timeline" class="cd-container">
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img">
+          <img src="images/MinesSaintEtienne.png" alt="École nationale supérieure des mines de Saint-Étienne" />
+        </div>
+        <!-- cd-timeline-img -->
 
-<div class="row">
-	<div class="medium-9 large-7 small-centered column">
-		
-		<p class="mbm">I've combined my locally installed <a href="http://foundation.zurb.com/docs/sass.html">libsass/grunt version of foundation 5</a>, <a href="http://html5boilerplate.com/">html5 boilder plate</a>, and Jekyll to be used for github pages! See <a href="http://jekyllrb.com/docs/home/">Jekyll's documentation</a>, <a href="http://foundation.zurb.com/docs/">the foundation documentations</a>, and <a href="https://help.github.com/categories/20/articles">GitHub pages help pages</a>.</p>
+        <div class="cd-timeline-content">
+          <h2>Internship at École nationale supérieure des mines de Saint-Étienne</h2>
+          <p>I worked with my professors to create a Tracking Indoor Positioning System based on some small and cheap devices like Arduino Uno board, Xbee shield and Ethernet shield. We expected to have a system with more accuracy and cheaper than other
+            systems.
+          </p>
+          <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+          <span class="cd-date">Mar 2015 - June 2015</span>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
 
-		<p class="mbl">You can see all <a href="https://github.com/daigofuji/jekyll-foundation-5-starter/tree/gh-pages"><i class="fa fa-github"> 	
-		</i> my sources here</a>. I created this for my personal use, but if you'd like to use it, please feel free. Shout out <a href="http://daigo.org">daigo.org</a> or <a href="http://twitter.com/DaigoFuji">@DaigoFuji</a> are appreciated, but not required.</p>
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img">
+          <img src="images/LeoBurnettVietnam.jpg" alt="Leo Burnett Vietnam" />
+        </div>
+        <!-- cd-timeline-img -->
 
-		<div class="panel radius mvl">
-			<p>You should probably update the <samp>_config.yml</samp> file, and edit <samp>scss/_setting.scss</samp> file. As well as <samp>scss/_custom.scss</samp>, where most the overrides are happening.</p>
-		</div>
+        <div class="cd-timeline-content">
+          <h2>Senior Developer at Leo Burnett Vietnam</h2>
+          <p>I worked closely with Marketing team to build our own campaign, maintained and improved the client's website and did a lot of cool stuff.</p>
+          <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+          <span class="cd-date">Apr 2014 - Aug 2014</span>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
 
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img">
+          <img src="images/HarveyNashVietnam.png" alt="Harvey Nash Vietnam" />
+        </div>
+        <!-- cd-timeline-img -->
 
+        <div class="cd-timeline-content">
+          <h2>Front End Developer at Harvey Nash Vietnam</h2>
+          <p>I started to fall in love with Front End Development here. I began with beautiful design from Hearst Project, I built the components and maintained 18 websites of Hearst Magazines Corp. After left this project, I was assigned to maintain the
+            Harvey Nash website. With the successful of Harvey Nash project, I was trusted to build our own Harvey Nash Vietnam website.</p>
+          <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+          <span class="cd-date">Nov 2011 - Apr 2014</span>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+    </div>
+  </div>
+</section>
 
-	</div>
-</div>
-
-
-<div class="row"> 
-
-	<div class="large-4 columns">
-		<p><a href="page-html-unit-test.html">foundation-example.html</a> shows how all the html tags are rendered. Foundation takes care of those out of the box.</p>
-	</div>
-
-	<div class="large-4 columns">
-		<p>Another example are shown in <a href="page-foundation-example.html">foundation-example.html</a>. </p>
-	</div>
-
-	<div class="large-4 columns">
-		<p>And finally, foundation's grid system, <a href="page-template-example.html">page-template-example</a> You can also <a href="http://foundation.zurb.com/templates.html">get more templates</a> from foundations home.</p>
-	</div>
-
-</div>
-
-<div class="row">
-	<div class="medium-9 large-7 small-centered column">
-	
-		<p class="mvl">And out of the box, this supports <a href="http://fortawesome.github.io/Font-Awesome/">
-		<i class="fa fa-flag fa-lg">	
-		</i>
-		font awesome</a>, so you can go crazy with <a href="http://fortawesome.github.io/Font-Awesome/icons/">the icons</a>: <i class="fa fa-bitcoin fa-lg">	
-		</i> <i class="fa fa-cog fa-spin fa-lg">
-		</i>. </p> 
-
-	</div>
-</div>
+<!-- My Education -->
+<section id="education" class="content">
+  <div class="row">
+    <div class="row header">
+      <h3 class="section-header">My
+        <span>Education</span>
+      </h3>
+      <h4 class="section-subheader">What I have studied!</h4>
+    </div>
+    <div class="row">
+      <div class="large-6 medium-12 small-12 columns">
+        <h5 class="education-title"><i class="fa fa-book"></i> Bachelor in Information System</h5>
+        <h6 class="education-university"><i class="fa fa-university"></i> University of Sciences Ho Chi Minh City Vietnam</h6>
+        <p class="education-description">
+          This was the first step I had when I studied about Computer Science and other related subject. My proffesors helped me build my basic knowledges to dig in deeply and researched information by myself. In this field, I had studied about information system, understood how this kind of system is operating and how to perform the control, optimize and use this system properly.
+        </p>
+        <p class="education-range">
+          <i class="fa fa-calendar"></i> 2007 - 2011
+        </p>
+        <div class="education-status">
+          <p>Status: <i class="fa fa-graduation-cap"></i></p>
+        </div>
+      </div>
+      <div class="large-6 medium-12 small-12 columns">
+        <h5 class="education-title"><i class="fa fa-book"></i> Master in Machine Learning and Data Mining</h5>
+        <h6 class="education-university"><i class="fa fa-university"></i> University Jean Monnet France and University of Alicante Spain</h6>
+        <p class="education-description">
+          In this master program, I studied about Pattern Recognition, Machine Learning, Classification, Modelling, Knowledge Extraction and Data Mining. This is a step further from what I got in my Bachelor. I also wanted to bring these new knowledges to apply into Web Semantics, Video and Image Processing... With my own knowledges and my work experiences, I studied all the course with big interest.
+        </p>
+        <p class="education-range">
+          <i class="fa fa-calendar"></i> 2014-2016
+        </p>
+        <div class="education-status">
+          <p>Status: <i class="fa fa-spinner fa-spin"></i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

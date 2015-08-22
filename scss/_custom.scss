@@ -20,3 +20,15 @@ h1, h2, h3, h4, h5, h6 {
 .font-heavy {
 	font-weight: 800;
 }
+
+$custom-font : "Besom Regular";
+section{
+	.header{
+		text-transform: uppercase;
+		font-family: $custom-font;
+		border-bottom: 3px solid $primary-color;
+		span{
+			color: $primary-color;
+		}
+	}
+}

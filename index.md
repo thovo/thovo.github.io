@@ -23,7 +23,7 @@ keywords: thovo, web developer
     <div class="row">
       <div class="large-4 medium-12  small-12 columns">
         <h5 class="my-quote">
-          Bring the happiness to my client with interest!
+          Bring happiness to my clients with passion!
         </h5>
         <div class="row social">
           <a href="https://www.facebook.com/tvotuong" targert="_blank"><i class="fa fa-facebook-square"></i></a>
@@ -42,7 +42,7 @@ keywords: thovo, web developer
         </div>
         <div class="row story">
           <p>Hi, I'm a Front End Developer from Ho Chi Minh City, Vietnam. I am currently a Master student of Double Degrees Program between University of Jean Monet France and University of Alicante Spain.</p>
-          <p>I am currently studying about Machine Learning and Data Mining to apply this knowledges to Web Semantics, building a smart and adaptive website.</p>
+          <p>I study about Machine Learning and Data Mining to apply this knowledge to Web Semantics, building smart and adaptive websites.</p>
           <a class="download button radius" href="/resources/ThoVO-CurriculumVitae.pdf"><i class="fa fa-download"></i> Download Resume</a>
         </div>
       </div>
@@ -50,12 +50,12 @@ keywords: thovo, web developer
   </div>
 </section>
 
-<!-- Work Experiences -->
+<!-- Work Experience -->
 <section id="works" class="content">
   <div class="row">
     <div class="row header">
       <h3 class="section-header">Work
-        <span>Experiences</span>
+        <span>Experience</span>
       </h3>
       <h4 class="section-subheader">What I have done!</h4>
     </div>
@@ -68,8 +68,7 @@ keywords: thovo, web developer
 
         <div class="cd-timeline-content">
           <h2>Internship at École nationale supérieure des mines de Saint-Étienne</h2>
-          <p>I worked with my professors to create a Tracking Indoor Positioning System based on some small and cheap devices like Arduino Uno board, Xbee shield and Ethernet shield. We expected to have a system with more accuracy and cheaper than other
-            systems.
+          <p>I worked with my professors to create a Tracking Indoor Positioning System based on some small and cheap devices like Arduino Uno board, Xbee shield and Ethernet shield. We expected to achieve a more economical system with higher accuracy.
           </p>
           <!-- <a href="#0" class="cd-read-more">Read more</a> -->
           <span class="cd-date">Mar 2015 - June 2015</span>
@@ -102,8 +101,7 @@ keywords: thovo, web developer
 
         <div class="cd-timeline-content">
           <h2>Front End Developer at Harvey Nash Vietnam</h2>
-          <p>I started to fall in love with Front End Development here. I began with beautiful design from Hearst Project, I built the components and maintained 18 websites of Hearst Magazines Corp. After left this project, I was assigned to maintain the
-            Harvey Nash website. With the successful of Harvey Nash project, I was trusted to build our own Harvey Nash Vietnam website.</p>
+          <p>I started to fall in love with Front End Development here. I began with beautiful design from Hearst Project, I built and maintained components for 18 websites of Hearst Magazines Corp. Afterwards, I joined another team maintaining Harvey Nash website. Thanks to the success of the Harvey Nash project, I gained the trust to build our own.</p>
           <!-- <a href="#0" class="cd-read-more">Read more</a> -->
           <span class="cd-date">Nov 2011 - Apr 2014</span>
         </div>
@@ -128,7 +126,7 @@ keywords: thovo, web developer
         <h5 class="education-title"><i class="fa fa-book"></i> Bachelor in Information System</h5>
         <h6 class="education-university"><i class="fa fa-university"></i> University of Sciences Ho Chi Minh City Vietnam</h6>
         <p class="education-description">
-          This was the first step I had when I studied about Computer Science and other related subject. My proffesors helped me build my basic knowledges to dig in deeply and researched information by myself. In this field, I had studied about information system, understood how this kind of system is operating and how to perform the control, optimize and use this system properly.
+          This was the first step I had when I studied about Computer Science and other related subject. My profesors helped me build my basic knowledges to dig in deeply and researched information by myself. In this field, I had studied about information system, understood how this kind of system is operating and how to perform the control, optimize and use this system properly.
         </p>
         <p class="education-range">
           <i class="fa fa-calendar"></i> 2007 - 2011
@@ -150,6 +148,29 @@ keywords: thovo, web developer
           <p>Status: <i class="fa fa-spinner fa-spin"></i></p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact me -->
+<section id="contact" class="content">
+  <div class="row">
+    <div class="row header">
+      <h3 class="section-header">Contact
+        <span>Me</span>
+      </h3>
+      <h4 class="section-subheader">Fire me an email!</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="form">
+      <form action="http://formspree.io/votuongtho@gmail.com">
+        <label for="_replyto">Your email:</label>
+      <input class="" type="email" name="_replyto" placeholder="Your email">
+      <label for="body">Your message:</label>
+      <textarea class="" name="body" placeholder="Your message"></textarea>
+      <input type="submit" value="Send" class="button radius tiny"></input>
+    </form>
     </div>
   </div>
 </section>

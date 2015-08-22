@@ -459,7 +459,7 @@ Main components
     transform: translateX(0);
   }
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,label{
   font-family: 'Roboto Condensed', sans-serif;
 }
 section.content{
@@ -563,4 +563,33 @@ a:hover{
     left: 30%;
     top: 30%;
   }
+}
+
+input[type="email"], textarea{
+  border-radius: 0px;
+  box-shadow: none;
+  border-color: #DEDEDE;
+  font-size: 14px;
+  padding: 10px 16px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+}
+textarea{
+  min-height: 200px;
+}
+input[type="submit"]{
+  background-color: #2C82C9;
+}
+h1 a{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #2C82C9;
+  padding-bottom: 2px;
+}
+h1 a:hover{
+  border-bottom: 4px solid #2C82C9;
+}
+
+.desktop-menu a:hover{
+  border-bottom: 4px solid #2C82C9;
 }

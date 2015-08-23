@@ -33,7 +33,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: './images/',
                     src: '{,*/}**/*.{png,jpg,jpeg,svg}',
-                    dest: './compressed'
+                    dest: './images/compressed'
                 }]
             }
         }

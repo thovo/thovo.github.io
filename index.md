@@ -68,7 +68,7 @@ keywords: thovo, web developer
 
         <div class="cd-timeline-content">
           <h2>Internship at École nationale supérieure des mines de Saint-Étienne</h2>
-          <p>I worked with my professors to create a Tracking Indoor Positioning System based on some small and cheap devices like Arduino Uno board, Xbee shield and Ethernet shield. We expected to achieve a more economical system with higher accuracy.
+          <p>My duty was worked under the supervisor of my professors to create a Tracking Indoor Positioning System based on some small and cheap devices like Arduino Uno board, Xbee shield and Ethernet shield. We expected to achieve a more economical system with higher accuracy.
           </p>
           <!-- <a href="#0" class="cd-read-more">Read more</a> -->
           <span class="cd-date">Mar 2015 - June 2015</span>
@@ -85,7 +85,7 @@ keywords: thovo, web developer
 
         <div class="cd-timeline-content">
           <h2>Senior Developer at Leo Burnett Vietnam</h2>
-          <p>I worked closely with Marketing team to build our own campaign, maintained and improved the client's website and did a lot of cool stuff.</p>
+          <p>My reponsibility was coporated closely with Marketing team to build our own campaign, maintained and improved the client's website and did a lot of cool stuff like building a 777 Casino Slot Machine simulator and etc...</p>
           <!-- <a href="#0" class="cd-read-more">Read more</a> -->
           <span class="cd-date">Apr 2014 - Aug 2014</span>
         </div>
@@ -101,7 +101,7 @@ keywords: thovo, web developer
 
         <div class="cd-timeline-content">
           <h2>Front End Developer at Harvey Nash Vietnam</h2>
-          <p>I started to fall in love with Front End Development here. I began with beautiful design from Hearst Project, I built and maintained components for 18 websites of Hearst Magazines Corp. Afterwards, I joined another team maintaining Harvey Nash website. Thanks to the success of the Harvey Nash project, I gained the trust to build our own.</p>
+          <p>From this moment, I've started to fall in love with Front End Development here. First, I began with beautiful design from Hearst Project, I built and maintained components for 18 websites of Hearst Magazines Corp. Afterwards, I joined another team maintaining Harvey Nash website. Thanks to the success of the Harvey Nash project, I gained the trust to build our own.</p>
           <!-- <a href="#0" class="cd-read-more">Read more</a> -->
           <span class="cd-date">Nov 2011 - Apr 2014</span>
         </div>

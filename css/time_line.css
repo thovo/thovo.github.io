@@ -459,81 +459,12 @@ Main components
     transform: translateX(0);
   }
 }
-h1,h2,h3,h4,h5,h6,label{
-  font-family: 'Roboto Condensed', sans-serif;
-}
-section.content{
-  padding: 1rem 0;
-}
-
-section.content:nth-child(2n){
-  background-color: #e9f0f5;
-  width: 100%;
-  max-width: 100%;
-}
-.row.header{
-  position: relative;
-  margin-bottom: 2rem;
-}
-.header::before{
-  content: "L" !important;
-  font-family: sans-serif;
-  font-size: 120px;
-  position: absolute;
-  top: -100%;
-  left: 36%;
-  color: #2C82C9;
-  transform: rotate(90deg);
-}
-.header::after{
-  content: "L" !important;
-  font-family: sans-serif;
-  font-size: 120px;
-  position: absolute;
-  bottom: -100%;
-  right: 36%;
-  color: #2C82C9;
-  transform: rotate(-90deg);
-}
-.section-header {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.section-header span {
-    color: rgb(44, 130, 201);
-}
-
-.section-subheader {
-    text-align: center;
-    font-family: "Cookie",cursive;
-    color: grey;
-}
-.my-quote{
-  font-family: "Cookie",cursive;
-  font-size: 2rem;
-  text-align: center;
-}
-.avatar {
-    border-radius: 50%;
-}
-.social{
-  text-align: center;
-}
-.social a{
-  display: inline-block;
-  font-size: 2rem;
-  margin: 0 5px;
-}
 #education{
   text-align: center;
 }
 #education .fa{
   font-size: 1rem;
   color: #2C82C9;
-}
-#about{
-  text-align: center;
 }
 a:hover{
   color: #2C82C9;

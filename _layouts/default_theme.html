@@ -15,101 +15,8 @@
   <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700' rel='stylesheet' type='text/css'>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-  <style media="screen">
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    label {
-      font-family: 'Roboto Condensed', sans-serif !important;
-    }
-
-    section.content {
-      padding: 1rem 0;
-    }
-
-    section.content:nth-child(2n) {
-      background-color: #e9f0f5;
-      width: 100%;
-      max-width: 100%;
-    }
-
-    .row.header {
-      position: relative;
-      margin-bottom: 2rem;
-    }
-
-    .header::before {
-      content: "L" !important;
-      font-family: sans-serif;
-      font-size: 120px;
-      position: absolute;
-      top: -100%;
-      left: 36%;
-      color: #2C82C9;
-      -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      transform: rotate(90deg);
-    }
-
-    .header::after {
-      content: "L" !important;
-      font-family: sans-serif;
-      font-size: 120px;
-      position: absolute;
-      bottom: -100%;
-      right: 36%;
-      color: #2C82C9;
-      -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-      transform: rotate(-90deg);
-    }
-
-    .section-header {
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-
-    .section-header span {
-      color: rgb(44, 130, 201);
-    }
-
-    .section-subheader {
-      text-align: center;
-      font-family: "Cookie", cursive !important;
-      color: grey;
-    }
-
-    .my-quote {
-      font-family: "Cookie", cursive !important;
-      font-size: 2rem;
-      text-align: center;
-    }
-
-    .avatar {
-      border-radius: 50%;
-    }
-
-    .social {
-      text-align: center;
-    }
-
-    .social a {
-      display: inline-block;
-      font-size: 2rem;
-      margin: 0 5px;
-    }
-
-    #about {
-      text-align: center;
-    }
-  </style>
   <link async rel="stylesheet" href="css/style.css" />
   <!-- time line css -->
-  <link async rel="stylesheet" href="css/time_line.css">
   <!-- Ah, the favicon.
     ================================================== -->
   <link rel="shortcut icon" href="favicon.ico">
@@ -134,7 +41,7 @@
 </head>
 
 <body>
-
+  <div id="top"></div>
   <div class="off-canvas-wrap" data-offcanvas>
     <div class="inner-wrap">
       <!-- Add header and nav here  -->
@@ -193,7 +100,9 @@
                 </i> @{{ site.github }}</a> {{ site.year }}.</p>
         </div>
       </footer>
-
+      <div id="back-to-top">
+        <a href="#top"><i class="fa fa-angle-up"></i></a>   
+      </div>
 
       <!-- close the off-canvas menu -->
       <a class="exit-off-canvas"></a>

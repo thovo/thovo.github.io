@@ -181,6 +181,38 @@ keywords: thovo, web developer
   </div>
 </section>
 
+<!-- My project -->
+<section id="project" class="content">
+  <div class="row">
+    <div class="row header">
+      <h3 class="section-header">My
+        <span>Project</span>
+      </h3>
+      <h4 class="section-subheader">On going projects</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 medium-12 small-12 columns">
+      <h5 class="project-title"><i class="fa fa-mouse-pointer"></i> One design per week</h5>
+      <p class="project-description">
+        Transform beautiful design into real website is one of my passion. I want to do it everyday but I haven't enough time so I try to do at least one new design per week. I would public my source code and design file, read the comments to improve myself for future projects.
+      </p>
+      <div class="project-links">
+        <a href="#">See more <i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+    <div class="large-6 medium-12 small-12 columns">
+      <h5 class="project-title"><i class="fa fa-opencart"></i> Food Talk Project</h5>
+      <p class="project-description">
+        This is currently an open-source project. I worked with my friend to deal with food waste problem. We want to create a device that can attach easily everywhere, connect automatically with your application to track, guide and help you control your food in your fridge efficiently. Beside tracking, this device also gives proper and healthy recipes based on what you have. This project is still going and in design concept. We will try to have a real prototype soon.
+      </p>
+      <div class="project-links">
+        <a href="http://foodtalkproject.github.io/">See more <i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Contact me -->
 <section id="contact" class="content">
   <div class="row">

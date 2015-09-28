@@ -225,7 +225,7 @@ keywords: thovo, web developer
   </div>
   <div class="row">
     <div class="form">
-      <form action="http://formspree.io/votuongtho@gmail.com">
+      <form action="http://formspree.io/votuongtho@gmail.com" method="POST">
         <label for="_replyto">Your email:</label>
       <input class="" type="email" name="_replyto" placeholder="Your email">
       <label for="body">Your message:</label>
